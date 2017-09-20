@@ -10,16 +10,16 @@
 
 <body>
   <div class="card-panel grey darken-3 center-align" id="top">
-    <h4 class="white-text">Portfolio of Sadayuki Tozuka</h3>
-      <h5 class="white-text">Software Developer</h5>
+    <h4 class="white-text">Portfolio of Sadayuki Tozuka</h4>
+    <h5 class="white-text">Software Developer</h5>
   </div>
 
   <div class="container">
-      <h5>Links</h5>
-      <div class="collection">
-        <a href="https://github.com/stozuka" target="_blank" class="collection-item">GitHub</a>
-        <a href="https://www.linkedin.com/in/sadayuki-tozuka-87b020b2/" target="_blank" class="collection-item">LinkedIn</a>
-      </div>
+    <h5>Links</h5>
+    <div class="collection">
+      <a href="https://github.com/stozuka" target="_blank" class="collection-item">GitHub</a>
+      <a href="https://www.linkedin.com/in/sadayuki-tozuka-87b020b2/" target="_blank" class="collection-item">LinkedIn</a>
+    </div>
   </div>
 
   <div class="container">
@@ -41,12 +41,20 @@
   <div class="container">
     <h5>Contact</h5>
     <ul class="collection">
-      <li class="collection-item">Email: stozuka@gmail.com</li>
+      <li class="collection-item">stozuka@gmail.com</li>
     </ul>
   </div>
 
+  <footer class="footer-copy-right white-text grey darken-3 center-align">
+    © <span id="year"></span> Sadayuki Tozuka. All Rights Reserved.
+  </footer>
+
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script>
+    var year = new Date().getFullYear();
+    document.getElementById("year").textContent = year;
+  </script>
 </body>
 
 </html>
