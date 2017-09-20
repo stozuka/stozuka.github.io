@@ -1,0 +1,11 @@
+html {
+  font-family: Georgia, "Times New Roman", GillSans, Calibri, Trebuchet, sans-serif;
+}
+
+#top {
+  margin-top: 0;
+}
+
+.container {
+  padding: 5px 20px;
+}

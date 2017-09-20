@@ -1,3 +1,1 @@
-Portfolio site of Sadayuki Tozuka
-
-https://stozuka.github.io
+My portfolio site: https://stozuka.github.io
